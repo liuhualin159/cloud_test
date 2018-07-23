@@ -9,7 +9,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @MapperScan("com.cloudtest.cloudtest.mapper")
 public class CloudtestApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(CloudtestApplication.class, args);
     }
